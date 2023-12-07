@@ -417,7 +417,7 @@ public class Menu extends AppCompatActivity {
         mensajes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this,Mensajeria.class);
+                Intent intent = new Intent(Menu.this, SendMessageActivity.class);
                 startActivity(intent);
             }
         });
