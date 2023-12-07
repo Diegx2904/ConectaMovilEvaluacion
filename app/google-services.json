@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "889347869823",
+    "project_id": "conectamovilevaluacion",
+    "storage_bucket": "conectamovilevaluacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889347869823:android:d2bd6aeba393af0a0e034a",
+        "android_client_info": {
+          "package_name": "com.example.conectamovilevaluacion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTqSpwUEwBP57cWw2oKVXNrWsugcKXAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
