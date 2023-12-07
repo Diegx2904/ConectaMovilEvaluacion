@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/descarga"
     android:layout_height="match_parent">
 
     <ImageView
@@ -24,6 +25,7 @@
         android:layout_below="@id/profile_image_view"
         android:layout_margin="16dp"
         android:hint="Nombre"
+        android:textColorHint="@color/white"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,6 +39,7 @@
         android:layout_below="@id/nombre_edit_text"
         android:layout_margin="16dp"
         android:hint="Descripción"
+        android:textColorHint="@color/white"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

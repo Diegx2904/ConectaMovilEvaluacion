@@ -32,7 +32,7 @@ public class Menu extends AppCompatActivity {
 
     private EditText txtid, txtnom, txtape, txttel;
     private Button btnbus, btnmod, btnreg, btneli;
-    private ImageView volver,perfil;
+    private ImageView volver,perfil,mensajes;
     private ListView lvDatos;
 
     @Override
@@ -45,6 +45,7 @@ public class Menu extends AppCompatActivity {
         txttel = (EditText) findViewById(R.id.txttel);
         volver = (ImageView) findViewById(R.id.imgVolver);
         perfil = (ImageView) findViewById(R.id.imgPerfil);
+        mensajes = (ImageView) findViewById(R.id.imgMensajes);
         btnbus  = (Button)   findViewById(R.id.btnbus);
         btnmod  = (Button)   findViewById(R.id.btnmod);
         btnreg  = (Button)   findViewById(R.id.btnreg);
@@ -58,6 +59,7 @@ public class Menu extends AppCompatActivity {
         listarContactos();
         volver();
         perfil();
+        mensajes();
 
     }
     private void botonBuscar(){
@@ -407,6 +409,15 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Menu.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+    private void mensajes(){
+        mensajes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menu.this,Mensajeria.class);
                 startActivity(intent);
             }
         });

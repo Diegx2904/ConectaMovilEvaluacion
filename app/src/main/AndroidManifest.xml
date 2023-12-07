@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ConectaMovilEvaluacion"
         tools:targetApi="31">
         <activity
+            android:name=".Mensajeria"
+            android:exported="false" />
+        <activity
             android:name=".Perfil"
             android:exported="false" />
         <activity
