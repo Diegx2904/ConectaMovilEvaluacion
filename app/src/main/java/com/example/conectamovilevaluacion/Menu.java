@@ -106,7 +106,6 @@ public class Menu extends AppCompatActivity {
             }
         });
     }
-
     private void botonModificar(){
         btnmod.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -194,7 +193,6 @@ public class Menu extends AppCompatActivity {
             }
         });
     }
-
     private void botonRegistrar(){
         btnreg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -417,7 +415,7 @@ public class Menu extends AppCompatActivity {
         mensajes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this, SendMessageActivity.class);
+                Intent intent = new Intent(Menu.this, Perfil.class);
                 startActivity(intent);
             }
         });
